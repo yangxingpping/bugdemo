@@ -1,7 +1,9 @@
 #include <iostream>
 
+#include "spdlog/spdlog.h"
+
 int main(void)
 {
-
-    return ;
+    SPDLOG_INFO("hello.world");
+    return 0;
 }
